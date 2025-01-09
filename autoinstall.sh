@@ -234,6 +234,7 @@ remove_hyperlane() {
 # Main Menu
 main_menu() {
     while true; do
+        curl -s https://raw.githubusercontent.com/dwisyafriadi2/logo/main/logo.sh | bash
         echo -e "${YELLOW}"
         echo "============================ Hyperlane Installation ===================================="
         echo "Please Select an Option(1-7):"
